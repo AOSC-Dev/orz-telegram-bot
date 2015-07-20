@@ -7,7 +7,7 @@ const TELEGRAM_GROUP_ID = "";
 var Telegram = require('telegram-bot');
 var tg = new Telegram(TELEGRAM_BOT_API_KEY);
 var irc = require('irc');
-var client = new irc.Client('irc.freenode.net', 'OrzTgBot', {
+var client = new irc.Client('irc.freenode.net', 'AOSCtunnel', {
     channels: [IRC_GROUP_NAME],
 });
 var tgid;
